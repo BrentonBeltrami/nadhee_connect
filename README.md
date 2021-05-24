@@ -1,1 +1,1 @@
-#This is a forkable boilerplate for django & tailwind. 
+# This is a forkable boilerplate for django & tailwind. 
