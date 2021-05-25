@@ -1,1 +1,1 @@
-web: gunicorn boilerplate.wsgi
+web: gunicorn django_boilerplate.wsgi
