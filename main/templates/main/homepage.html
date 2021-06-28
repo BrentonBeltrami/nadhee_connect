@@ -2,10 +2,15 @@
 {% load markdown_extras %}
 
 {% block content %}
+<div class="p-8 m-6 bg-blue-800 text-center">
+	<h1 class="text-gray-800">Welcome To Nadhee Connect!</h1>
+</div>
 
-<h1 class="text-gray-200">Welcome To Nadhee Connect!</h1>
+<div class="mx-auto px-3 prose">
 
-    {% for post in object_list %}
-        <p>{{ post.content | markdown | safe }}</p>
-    {% endfor %}
+	{% for post in object_list %}
+	<p>{{ post.content | markdown | safe }}</p>
+	{% endfor %}
+
+</div>
 {% endblock %}
