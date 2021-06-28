@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_boilerplate.urls'
+ROOT_URLCONF = 'nadhee_connect.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_boilerplate.wsgi.application'
+WSGI_APPLICATION = 'nadhee_connect.wsgi.application'
 
 
 # Database

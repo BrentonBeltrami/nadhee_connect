@@ -1,1 +1,1 @@
-web: gunicorn django_boilerplate.wsgi
+web: gunicorn nadhee_connect.wsgi
