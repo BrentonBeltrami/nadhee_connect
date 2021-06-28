@@ -866,7 +866,7 @@ select {
 	line-height: 1.3333333;
 }
 .prose h3 {
-	color: #111827;
+	color: #991b1b;
 	font-weight: 600;
 	font-size: 1.25em;
 	margin-top: 1.6em;
@@ -1065,6 +1065,12 @@ select {
 	margin-left: auto;
 	margin-right: auto;
 }
+.mb-12 {
+	margin-bottom: 3rem;
+}
+.mt-12 {
+	margin-top: 3rem;
+}
 .block {
 	display: block;
 }
@@ -1084,12 +1090,33 @@ select {
 	--tw-bg-opacity: 1;
 	background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
 }
+.bg-blue-300 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
+}
+.p-6 {
+	padding: 1.5rem;
+}
+.px-6 {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+.text-center {
+	text-align: center;
+}
 .font-serif {
 	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 .text-5xl {
 	font-size: 3rem;
 	line-height: 1;
+}
+.text-4xl {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+}
+.font-bold {
+	font-weight: 700;
 }
 .leading-normal {
 	line-height: 1.5;

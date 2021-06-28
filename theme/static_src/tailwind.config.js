@@ -59,9 +59,13 @@ module.exports = {
 						h1: {
 							color: theme('colors.gray.800'),
 					},
+						h3: {
+							color: theme('colors.red.800'),
+					},
+				},
 				},
 			}),
-		}
+		},
 	},
 	variants: {
 		extend: {},
