@@ -776,10 +776,6 @@ select {
 .justify-center {
 	justify-content: center;
 }
-.bg-black {
-	--tw-bg-opacity: 1;
-	background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-}
 .bg-gray-800 {
 	--tw-bg-opacity: 1;
 	background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
@@ -791,19 +787,11 @@ select {
 	font-size: 3rem;
 	line-height: 1;
 }
-.text-xs {
-	font-size: 0.75rem;
-	line-height: 1rem;
-}
 .leading-normal {
 	line-height: 1.5;
 }
 .tracking-normal {
 	letter-spacing: 0em;
-}
-.text-gray-800 {
-	--tw-text-opacity: 1;
-	color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
 .text-gray-200 {
 	--tw-text-opacity: 1;

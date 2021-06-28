@@ -1,5 +1,10 @@
 from django.shortcuts import render
+from django.views import generic
+from .models import HomePage 
 
 # Create your views here.
-def homepage(request):
-    return render(request, 'main/homepage.html')
+class Home(generic.ListView):
+    model = HomePage
+    template_name = 'main/homepage.html'
+
+
